@@ -2,11 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+<<<<<<< HEAD
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import api from "../../Assets/Projects/api.png";
 import designer from "../../Assets/Projects/designer.png";
 import suicide from "../../Assets/Projects/suicide.png";
+=======
+import api from "../../Assets/Projects/api.png";
+import designer from "../../Assets/Projects/designer.png";
+
+>>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
 import moviehub from "../../Assets/Projects/moviehub.png";
 
 function Projects() {
@@ -55,7 +61,11 @@ function Projects() {
             />
           </Col>
 
+<<<<<<< HEAD
           <Col md={4} className="project-card">
+=======
+          {/* <Col md={4} className="project-card">
+>>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -87,7 +97,11 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
+<<<<<<< HEAD
           </Col>
+=======
+          </Col> */}
+>>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
         </Row>
       </Container>
     </Container>
