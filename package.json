@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "portfolio",
   "version": "0.1.0",
-=======
-  "homepage": "https://anikshahrier.github.io/portfolio",
-  "name": "anik-portfolio",
-  "version": "0.1.1",
->>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
@@ -31,11 +25,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-<<<<<<< HEAD
-=======
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
->>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -57,11 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-=======
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
->>>>>>> 50f75caf274af6850393dd035bcba530bdac7878
   }
 }
